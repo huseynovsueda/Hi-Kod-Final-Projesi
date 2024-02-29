@@ -1,0 +1,179 @@
+/*Home Page */
+body {
+  background-image: url(photos/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*Navbar */
+
+.btn-buton-primary {
+  background-color: #222;
+  
+}
+/*TITLE */
+ .title {
+  font-size: 40px;
+  font-family: "Spicy Rice", serif;
+  font-weight: 400PX;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+ }
+
+
+.round {
+  border-radius: 50%;
+}
+
+  /* Content Cards- Booms */
+   .carousel-control-prev {
+    left: 2px;
+  }
+  .carousel-control-next {
+    left: 980px;
+  } 
+
+  #card1, #card2, #card3, #card4, #card5, #card6 {
+    margin-left: 200px;
+    margin-top: 7px;
+    background-color: #ffffff00;
+    text-align: center;
+    color: white;
+    display: flex;
+    
+  }
+ 
+  .card1-img-top, .card2-img-top, .card3-img-top, .card4-img-top, .card5-img-top, .card6-img-to {
+    height: 500px;
+    width: 600px;
+    margin-left: 100px ;
+  }
+   .carouselExamples {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+   }
+   
+  /*In Space*/
+
+  .card4-img-top, .card5-img-top, .card6-img-to {
+     height: 500px;
+     width: 600px;
+     margin-left: 100px;
+     margin-top: 50px;
+     display: flex;
+
+  }
+ 
+
+  /*ADVERTISEMENT*/
+  .ads {
+    display: flex;
+    gap: 10px;
+
+  }
+
+  /*WORLD STARS*/
+  .photo1, .photo2, .photo3, .photo4{
+    width: 300px; /* Genişlik */
+    height: auto; /* Otomatik yükseklik ayarı, oranı korur */
+    display: block; /* Blok elemanı olarak ayarlar, kenar boşluğu eklemek için */
+    margin: 0 auto; /* Otomatik olarak yatayda ortalar */
+    margin-top: 10px; /* Üst kenarda boşluk ekler */
+    margin-bottom: 10px; /* Alt kenarda boşluk ekler */
+  }
+
+  .accordion-body{
+    text-align: center;
+    color: white;
+  }
+
+  
+  
+  .total4{
+    width: 500px; /* Genişlik */
+    height: 320px; /* Otomatik yükseklik ayarı, oranı korur */
+    display: block; /* Blok elemanı olarak ayarlar, kenar boşluğu eklemek için */
+    margin: 0 auto; /* Otomatik olarak yatayda ortalar */
+    margin-top: 25px; /* Üst kenarda boşluk ekler */
+    margin-bottom: 20px; /* Alt kenarda boşluk ekler */
+  }
+
+  /*SPACE AND FUTURE*/
+
+  .disel-control-prev {
+
+    left: 2px;
+  }
+
+  
+  .cardf-1{ 
+    width: 450px;
+    height: 450px;
+   position: relative;
+   
+  }
+
+   
+  .cardf{
+    width: 100%;
+    color: white;
+  }
+ 
+
+.asdf{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-right: 250px;
+}
+
+footer {
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: #222;
+}
